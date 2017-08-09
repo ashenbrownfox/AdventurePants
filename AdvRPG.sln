@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdvRPG", "AdvRPG\AdvRPG.csproj", "{7522807E-D4C9-418C-8D84-AA8918874F38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{4A5A1CBB-DCA4-4DA9-89B8-B906A8EB172C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7522807E-D4C9-418C-8D84-AA8918874F38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7522807E-D4C9-418C-8D84-AA8918874F38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7522807E-D4C9-418C-8D84-AA8918874F38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7522807E-D4C9-418C-8D84-AA8918874F38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A5A1CBB-DCA4-4DA9-89B8-B906A8EB172C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A5A1CBB-DCA4-4DA9-89B8-B906A8EB172C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A5A1CBB-DCA4-4DA9-89B8-B906A8EB172C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A5A1CBB-DCA4-4DA9-89B8-B906A8EB172C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
