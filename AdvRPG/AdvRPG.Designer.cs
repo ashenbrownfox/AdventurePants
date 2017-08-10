@@ -56,7 +56,6 @@
             this.label2.Size = new System.Drawing.Size(29, 13);
             this.label2.TabIndex = 1;
             this.label2.Text = "Gold";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // label3
             // 
@@ -138,7 +137,6 @@
             this.Controls.Add(this.label1);
             this.Name = "AdvRPG";
             this.Text = "MyGame";
-            this.Load += new System.EventHandler(this.AdvRPG_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
