@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Engine;
 
 namespace AdvRPG
 {
@@ -15,22 +16,23 @@ namespace AdvRPG
         public AdvRPG()
         {
             InitializeComponent();
+            _player = new Player();
+            _player.CurrentHitPoints = 100;
+            _player.MaximumHitPoints = 100;
+            _player.Gold = 20;
+            _player.ExperiencePoints = 0;
+            _player.Level = 1;
+            lblHitPoints.Text = _player.CurrentHitPoints.ToString();
+            lblGold.Text = _player.Gold.ToString();
+            lblExperience.Text = _player.ExperiencePoints.ToString();
+            lblLevel.Text = _player.Level.ToString();
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
+        private Player _player;
         private void btnTest_Click(object sender, EventArgs e)
         {
             label2.Text = "Hey I changedz!";
             lblExperience.Text = "230000";
-        }
-
-        private void AdvRPG_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
